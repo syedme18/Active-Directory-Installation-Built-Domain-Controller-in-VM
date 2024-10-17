@@ -1,4 +1,4 @@
-# Active-Directory-Installation-And-Built-Domain-Controller-in-VM
+# Setting Up Active Directory and Building a Domain Controller in a Virtual Environment
 
 <h2> Setting up lab environment</h2> <br>
   Download windows <a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2016" target="_blank">Windows Server 2016</a>  (ISO File) from <br>
