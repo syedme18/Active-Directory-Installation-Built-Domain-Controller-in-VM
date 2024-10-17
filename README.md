@@ -22,3 +22,22 @@
     
 ![1](https://github.com/user-attachments/assets/9ee0d9ed-1211-491d-87b7-9ed0efee0e43)
 
+<br>
+    *Set the base memory (RAM) and processor as per your PC's compatibility.<br>
+    <br>
+    
+![2](https://github.com/user-attachments/assets/3ff00bc7-ad3b-4c7d-8dc5-fbaf6980c7e3)
+
+<br>
+    *Now set the Virtual Hard Disk ( I prefer dynamic allocation) <br>
+    <br>
+    
+![3](https://github.com/user-attachments/assets/accbfb2e-586c-45db-9275-746241b642d5)
+<br>
+    *Click on Finish <br>
+  Virtual machine has been created successfully ! <br>
+    *Now click on windows machine > go to the network settings <br>
+    *Under Adapter, Select your created network, change it from NAT to yours. <br>
+    <br>![4](https://github.com/user-attachments/assets/d0929fa3-449f-4291-aba0-3bbd39d9beb1)
+
+    
