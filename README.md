@@ -2,7 +2,7 @@
 
 <h2> Setting up lab environment</h2> <br>
   Download windows <a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2016" target="_blank">Windows Server 2016</a>  (ISO File) from <br>
-  Download <a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2016](https://www.virtualbox.org/wiki/Downloads)" target="_blank">Virtual Box</a> (Virtual Machine) <br> 
+  Download <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Virtual Box</a> (Virtual Machine) <br> 
   
   <br>
   
@@ -39,5 +39,33 @@
     *Now click on windows machine > go to the network settings <br>
     *Under Adapter, Select your created network, change it from NAT to yours. <br>
     <br>![4](https://github.com/user-attachments/assets/d0929fa3-449f-4291-aba0-3bbd39d9beb1)
-
+    <br>
+<h3><b>Installing Windows server in Machine</b></h3> <br>
+    *Open the machine in virtual box by clicking start<br>
+    *Now choose next option and let the setting default.<br>
+    *Click on Install now<br>
+    *Select the windows server 2016 Datacenter Evaluation (Desktop Experience) and Click next <br>
+    <br>
+    
+![5](https://github.com/user-attachments/assets/bf48cb14-9071-4dea-a417-bb2efc97b53e) <br>
+<br>
+    *Choose the Custom: install Windows only (advanced) installation and click next <br>
+    *Now installation begins <br>
+    <br>
+    
+![6](https://github.com/user-attachments/assets/277bb9ca-0a81-49c0-9aaa-6e22e7ae3acd) <br>
+<br>
+    *Now write your Administrator password <br>
+    *login to the windows desktop <br>
+    <br>
+  <h3><b>(Optional)</b></h3> <br>
+    For Improving performance and functionality of the virtual machine i am installing Virtual Box Guest Addition <br>
+    <br>
+    *Click on the devices on top for virtual machine <br>
+    *Click on insert Guest additions CD image and open the folder <br>
+    *Double click on VBox Windows Additions <br>
+    *Proceed with defualt and click next <br>
+    *Click on install <br>
+    *Click on finsih <br>
+  
     
