@@ -114,9 +114,8 @@ Covering the steps to create organizational units (OUs), users, computers, and h
 
 ## 1. Creating an Organizational Unit (OU)
 1. Right-click on the domain.
-2. Go to **New**, and click on **Organizational Unit**. ![VirtualBox_Win server 16_16_11_2024_21_40_02](https://github.com/user-attachments/assets/0aa78603-9ec6-4aff-b09d-87862d4d02b5)
-
-3. Enter the name of the OU and click **OK**. ![VirtualBox_Win server 16_16_11_2024_21_41_35](https://github.com/user-attachments/assets/fa0f0368-8db9-44bd-b73d-eae352632cea)
+2. Go to **New**, and click on **Organizational Unit**.![VirtualBox_Win server 16_16_11_2024_21_40_02](https://github.com/user-attachments/assets/ccedb2aa-94f5-4930-a036-5b6fec3e40eb)
+3. Enter the name of the OU and click **OK**. ![VirtualBox_Win server 16_16_11_2024_21_41_35](https://github.com/user-attachments/assets/78d288bd-83c0-4780-8eba-eba7672313d7)
 
 
    **Note**: When the "Protect container from accidental deletion" option is marked, the OU cannot be directly deleted.
@@ -134,13 +133,15 @@ Covering the steps to create organizational units (OUs), users, computers, and h
 
 ## 3. Creating a User in Domain Users
 1. Right-click on the **Domain Users** OU.
-2. Click **New**, and select **User**. ![VirtualBox_Win server 16_16_11_2024_21_50_32](https://github.com/user-attachments/assets/4bb9d2ac-1cc8-4bcc-af22-f23ccbfcf1fc)
+2. Click **New**, and select **User**. ![VirtualBox_Win server 16_16_11_2024_21_50_32](https://github.com/user-attachments/assets/cd918a30-49ef-4df6-8479-304321c67e8b)
+
 
 3. Enter the following details:
    - First Name
    - Initials (optional)
    - Last Name
-   - Username (domain will be selected automatically if there's only one domain). ![VirtualBox_Win server 16_16_11_2024_21_53_35](https://github.com/user-attachments/assets/478f8284-b10d-4b9a-8706-1b133c77b949)
+
+   - Username (domain will be selected automatically if there's only one domain).![VirtualBox_Win server 16_16_11_2024_21_53_35](https://github.com/user-attachments/assets/37fd7bf9-6134-4969-9d84-3e5a32c711dc)
 
 4. Click **Next**, set a password, and confirm it.
 5. Review the following password options:
@@ -148,7 +149,7 @@ Covering the steps to create organizational units (OUs), users, computers, and h
    - **"User cannot change the password"**: The user is restricted from changing the password.
    - **"Password never expires"**: Commonly used for service accounts.
    - **"Account is disabled"**: Used when creating an account for future use.
-6. For this guide, leave all options unchecked. Click **Next**, and then **Finish**. ![VirtualBox_Win server 16_16_11_2024_22_06_21](https://github.com/user-attachments/assets/f72d98a4-fd0b-4449-ab4e-d1441bc23363)
+6. For this guide, leave all options unchecked. Click **Next**, and then **Finish**. ![VirtualBox_Win server 16_16_11_2024_22_06_21](https://github.com/user-attachments/assets/6177787c-cebb-423a-8596-0dabdb54e319)
 
    - The user is now successfully created.
 
@@ -158,19 +159,20 @@ Covering the steps to create organizational units (OUs), users, computers, and h
 ### Methods to Find Objects:
 1. **Right-click** on the domain (e.g., `syedme.com`) and select **Find**. ![VirtualBox_Win server 16_16_11_2024_23_47_49](https://github.com/user-attachments/assets/3a5c5299-2851-4ad6-9c1e-121a71589d4f)
 
-2. Alternatively, click on the domain and select the object type to find. ![VirtualBox_Win server 16_16_11_2024_23_49_44](https://github.com/user-attachments/assets/6b4e7723-5115-44d7-a9a9-dad589a7cb19)
+2. Alternatively, click on the domain and select the object type to find. ![VirtualBox_Win server 16_16_11_2024_23_47_49](https://github.com/user-attachments/assets/84ed15d9-afe7-4dad-bd74-8b393d2d97f7)
 
 
    **Example**: Finding a User
-   1. Select "Users, contacts, and groups" from the **Find** section. ![VirtualBox_Win server 16_16_11_2024_23_51_55](https://github.com/user-attachments/assets/94902996-c50c-434a-adc8-4d09ccb2f569)
+   1. Select "Users, contacts, and groups" from the **Find** section. ![VirtualBox_Win server 16_16_11_2024_23_51_55](https://github.com/user-attachments/assets/8cc9e290-310d-4308-97d0-efb261329a87)
 
-   2. In the **IN** section, available domains will appear. If there's only one domain, it will display as such. ![VirtualBox_Win server 16_16_11_2024_23_54_06](https://github.com/user-attachments/assets/62c02d64-a41d-41de-b19f-bb4ddfadbcea)
+
+   2. In the **IN** section, available domains will appear. If there's only one domain, it will display as such. ![VirtualBox_Win server 16_16_11_2024_23_54_06](https://github.com/user-attachments/assets/670c210a-478b-49c4-b563-fd8e4644884b)
 
    3. For multiple domains, select "Entire Directory" to search across all domains.
-   4. Enter the user’s name in the **Name** field and click **Find now**. ![VirtualBox_Win server 16_16_11_2024_23_58_00](https://github.com/user-attachments/assets/2cc4612a-be58-4d31-91ce-71f68a7360d8)
+   4. Enter the user’s name in the **Name** field and click **Find now**. ![VirtualBox_Win server 16_16_11_2024_23_58_00](https://github.com/user-attachments/assets/bbae1900-85ae-47fe-ad13-e7cd28884625)
 
 
-   **Advanced Search**: Use the **Advanced** section to filter by criteria such as company, email, etc., for easier finding. ![VirtualBox_Win server 16_16_11_2024_23_59_41](https://github.com/user-attachments/assets/607545bf-c01a-4625-9d70-97d42ca1b6fb)
+   **Advanced Search**: Use the **Advanced** section to filter by criteria such as company, email, etc., for easier finding.![VirtualBox_Win server 16_16_11_2024_23_59_41](https://github.com/user-attachments/assets/c75e6551-7afd-4b5e-9d23-c2b50513ae9e)
 
 
 ---
@@ -178,9 +180,11 @@ Covering the steps to create organizational units (OUs), users, computers, and h
 ## 5. Creating and Managing Computers in Active Directory
 ### Creating a Computer in the Domain
 1. Right-click on **Computers** under the domain.
-2. Select **New**, and click **Computer**. ![VirtualBox_Win server 16_17_11_2024_00_09_30](https://github.com/user-attachments/assets/dd02d351-85f0-41b2-a433-ce55a3672cc2)
+2. Select **New**, and click **Computer**. ![VirtualBox_Win server 16_17_11_2024_00_09_30](https://github.com/user-attachments/assets/9f07a112-7485-4375-b94e-0a353c36420a)
 
-3. Enter a name for the computer.![VirtualBox_Win server 16_17_11_2024_00_13_26](https://github.com/user-attachments/assets/8d78afa7-1e99-4894-b1f3-78ed9aa23bb2)
+
+3. Enter a name for the computer.![VirtualBox_Win server 16_17_11_2024_00_13_26](https://github.com/user-attachments/assets/26b6638f-6065-4cd5-af70-05ccde7c8ddb)
+
    - **Note**: The option "Assign this computer account as pre-Windows 2000 computer" ensures compatibility with older systems if required.
 4. Click **OK** to create the computer.
 
@@ -190,19 +194,23 @@ Covering the steps to create organizational units (OUs), users, computers, and h
 
 ## 6. Moving Computers from Domain to an Organizational Unit
 ### Steps to Move Computers:
-To move the computer i can directly do by right clicking on the computer  ![VirtualBox_Win server 16_17_11_2024_00_17_23](https://github.com/user-attachments/assets/99f4a74c-94eb-4dd1-9cf5-1e4ffa98b258)
+To move the computer i can directly do by right clicking on the computer ![VirtualBox_Win server 16_17_11_2024_00_17_23](https://github.com/user-attachments/assets/2315edc8-c67d-418e-aea7-5d717d4c9596)
+
 However the better way to do is first find the computer from find option, Now i have created two computers in which "COM" is common 
 so here what i will do is
 
 1. Use the **Find** option to locate the computers:
    - Select **Find** as "Computers".
    - Set the domain to `syedme.com`.
-   - In the **Computer Name** field, use a wildcard search (e.g., `*COM*`):![VirtualBox_Win server 16_17_11_2024_00_27_54](https://github.com/user-attachments/assets/69f705a2-0610-4378-b6a4-643d4bf6aae4)
+   - In the **Computer Name** field, use a wildcard search (e.g., `*COM*`): ![VirtualBox_Win server 16_17_11_2024_00_27_54](https://github.com/user-attachments/assets/3b4b2800-7189-4554-a700-3c9b76f8ce61)
+
      - The asterisk (`*`) allows for partial matching, such as any name containing "COM". 
 
-2. Click **Find**, select the desired computers, right-click, and select **Move**. 
+2. Click **Find**, select the desired computers, right-click, and select **Move**.  ![VirtualBox_Win server 16_17_11_2024_00_28_39](https://github.com/user-attachments/assets/df9e661f-8783-453c-967a-332f850bf7ad)
 
-3. Choose the target OU (e.g., `Domain Computers`) and click **OK**. ![VirtualBox_Win server 16_17_11_2024_00_29_50](https://github.com/user-attachments/assets/2042d137-6c31-4cda-a0b8-90b1074a00f3)
+3. Choose the target OU (e.g., `Domain Computers`) and click **OK**.![VirtualBox_Win server 16_17_11_2024_00_29_50](https://github.com/user-attachments/assets/dce57faa-1fb5-4147-b135-a1c2539a09c0)
+
+
 
 
 
@@ -214,10 +222,11 @@ so here what i will do is
 ## 7. Resetting the Password in Active Directory
 ### Steps to Reset a User's Password:
 1. Use the **Find** option to locate the user:
-   - Search by **Username** for precise results since names can be redundant.![VirtualBox_Win server 16_17_11_2024_14_40_16](https://github.com/user-attachments/assets/ccdc51e3-1b86-4a04-93f7-58bc97ffcff8)
+   - Search by **Username** for precise results since names can be redundant. ![VirtualBox_Win server 16_17_11_2024_14_40_16](https://github.com/user-attachments/assets/53bb8e1b-d72a-43f5-97f8-4cdfb0f65576)
 
 
-2. Right-click on the user, and select **Reset Password**.  ![VirtualBox_Win server 16_17_11_2024_14_44_02](https://github.com/user-attachments/assets/08d6fb1a-e28a-4636-9f4e-b17c045c0a76)
+
+2. Right-click on the user, and select **Reset Password**.  ![VirtualBox_Win server 16_17_11_2024_14_44_02](https://github.com/user-attachments/assets/bb39f905-20c8-4117-990e-3dd4166a222c)
 
 
 3. Set a new password and confirm it:
@@ -228,7 +237,8 @@ so here what i will do is
    - If the account is not locked, leave it unchecked.
 
 
-5. Click **OK** to apply the new password.![VirtualBox_Win server 16_17_11_2024_14_53_52](https://github.com/user-attachments/assets/486e4ecb-9dda-4a98-9a15-1cfc8c3a132f)
+5. Click **OK** to apply the new password.![VirtualBox_Win server 16_17_11_2024_14_53_52](https://github.com/user-attachments/assets/d5fd9980-e8a4-4140-a8a8-ff2a78638106)
+
 
 
    - The password has now been successfully changed.
