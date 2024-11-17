@@ -245,6 +245,36 @@ so here what i will do is
 
 ---
 
+## 8. Disabling a User's Account
+### Best Practice: Organizing Disabled Accounts
+- Create a separate **Organizational Unit (OU)** named **Disabled Users**.
+- Move all disabled accounts into this OU for better organization.
+
+### Steps to Disable a User Account:
+1. Locate the user account:
+   - Either navigate directly to the user or use the **Find** option to search for the user.
+
+
+2. Right-click on the user and select **Disable Account**.  ![VirtualBox_Win server 16_17_11_2024_17_27_26](https://github.com/user-attachments/assets/6ec30dc0-b785-4ad3-afc0-5f5e6eb3c4f6)
+   - The user’s account will now display a **downward arrow icon**, indicating it is disabled. <br>
+   ![VirtualBox_Win server 16_17_11_2024_17_29_13](https://github.com/user-attachments/assets/2c999ec4-e373-4b33-b2e3-67df726a97e9)
+
+
+### Moving the Disabled Account to the Disabled Users OU:
+1. Drag and drop the disabled user account into the **Disabled Users** OU.
+
+2. Alternatively, right-click on the user, select **Move**, and choose the **Disabled Users** OU as the destination.
+
+
+
+https://github.com/user-attachments/assets/1b642c1f-d4c4-4f70-8cb1-fc8105c661db
+
+
+
+
+---
+
+With this setup, managing disabled accounts becomes streamlined and avoids cluttering the Active Directory structure.
 
 
 
